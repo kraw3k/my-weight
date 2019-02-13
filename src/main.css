@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent; }
+
+*:focus {
+  outline: none; }
+
+body {
+  color: #37474f; }
+
+.app {
+  height: auto;
+  font-size: 8px; }
+
+.loading {
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 20vh; }
+
+.info {
+  height: auto;
+  padding: 10px; }
+
+.menu {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  padding: 10px 0;
+  background: #1565c0;
+  z-index: 999; }
+  .menu a {
+    flex: 1;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #102027;
+    font-weight: 700;
+    font-size: 1.4em; }
+  .menu i {
+    font-size: 2.6em; }
+  .menu .selected {
+    color: rgba(255, 255, 255, 0.753); }
+
+.routerContent {
+  height: auto;
+  display: flex;
+  justify-content: center; }
+  .routerContent .weightList {
+    padding: 0 0 15vh 0; }
+    .routerContent .weightList h1 {
+      text-align: center; }
+    .routerContent .weightList .weightListItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.096);
+      font-size: 1rem; }
+      .routerContent .weightList .weightListItem .main {
+        width: 100vw;
+        flex: 1;
+        display: flex; }
+        .routerContent .weightList .weightListItem .main .weight {
+          text-align: center;
+          flex: 2;
+          padding: 10px;
+          color: #003c8f; }
+        .routerContent .weightList .weightListItem .main .date {
+          flex: 4; }
+          .routerContent .weightList .weightListItem .main .date h4,
+          .routerContent .weightList .weightListItem .main .date h5 {
+            margin: 0 10px; }
+        .routerContent .weightList .weightListItem .main button {
+          flex: 2;
+          background: transparent;
+          border: none;
+          color: #102027;
+          padding: 2px;
+          margin: 3px 3px 0 0;
+          font-size: 0.8em; }
+        .routerContent .weightList .weightListItem .main span {
+          flex: 1; }
+    .routerContent .weightList .addWeightIcon {
+      background: #fff;
+      position: sticky;
+      bottom: 2vh;
+      width: 100vw;
+      margin: 10px auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+      color: #1565c0;
+      font-size: 2em; }
+  .routerContent .addWeight,
+  .routerContent .updateWeight {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 100vw; }
+    .routerContent .addWeight .header,
+    .routerContent .updateWeight .header {
+      display: flex;
+      align-items: center;
+      padding: 10px; }
+      .routerContent .addWeight .header span,
+      .routerContent .updateWeight .header span {
+        flex: 1; }
+      .routerContent .addWeight .header h1,
+      .routerContent .updateWeight .header h1 {
+        flex: 4;
+        font-size: 1rem;
+        color: #37474f; }
+      .routerContent .addWeight .header i,
+      .routerContent .updateWeight .header i {
+        flex: 1;
+        text-align: center;
+        color: #37474f; }
+    .routerContent .addWeight button,
+    .routerContent .updateWeight button {
+      flex: 2;
+      background: transparent;
+      border: none;
+      padding: 2px;
+      margin: 3px 3px 0 0; }
+      .routerContent .addWeight button i,
+      .routerContent .updateWeight button i {
+        color: #1565c0 !important;
+        font-size: 2rem; }
+    .routerContent .addWeight form,
+    .routerContent .updateWeight form {
+      flex: 1;
+      display: flex; }
+      .routerContent .addWeight form *,
+      .routerContent .updateWeight form * {
+        color: #37474f; }
+      .routerContent .addWeight form span,
+      .routerContent .updateWeight form span {
+        flex: 1; }
+      .routerContent .addWeight form input,
+      .routerContent .updateWeight form input {
+        text-align: center;
+        background: transparent;
+        border: none; }
+      .routerContent .addWeight form input[type="number"],
+      .routerContent .updateWeight form input[type="number"] {
+        flex: 4;
+        margin: 15px 0;
+        border-bottom: 1px solid #37474f; }
+      .routerContent .addWeight form input[type="datetime-local"],
+      .routerContent .updateWeight form input[type="datetime-local"] {
+        flex: 8;
+        margin: 15px 0;
+        border-bottom: 1px solid #37474f; }
+  .routerContent .addWeight {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.096);
+    padding-bottom: 5px; }
+  .routerContent .graphs {
+    width: 100vw;
+    height: auto;
+    min-height: 70vh;
+    padding: 10px 0; }
+  .routerContent .profile {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .routerContent .profile h1 {
+      font-size: 2rem; }
+    .routerContent .profile h3 {
+      margin: 2vh 0; }
+      .routerContent .profile h3 p {
+        margin: 5px; }
+    .routerContent .profile button {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: none;
+      color: #003c8f;
+      margin: 4px 0;
+      font-size: 1rem; }
+      .routerContent .profile button p {
+        flex: 5;
+        padding: 2px; }
+      .routerContent .profile button i {
+        flex: 1;
+        padding: 2px; }
+
+.welcome {
+  padding: 10px 0 10px 0;
+  margin: 0 0 20px 0;
+  background: #003c8f;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+  .welcome h1, .welcome h3 {
+    flex: 1;
+    padding: 0 0 10px 0; }
+  .welcome .signin {
+    flex: 2;
+    padding: 10px;
+    margin: 10px 10px 80px 10px;
+    width: 80vw;
+    background: #003c8f;
+    text-align: center;
+    color: #fff;
+    text-decoration: none; }
+
+.spinner {
+  animation: rotator 1.4s linear infinite;
+  height: 10vh;
+  width: 10vh;
+  margin-top: 30vh; }
+
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(270deg); } }
+
+.path {
+  stroke-dasharray: 187;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite; }
+
+@keyframes colors {
+  0% {
+    stroke: #1565c0; }
+  100% {
+    stroke: #003c8f; } }
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 187; }
+  50% {
+    stroke-dashoffset: 46.75;
+    transform: rotate(135deg); }
+  100% {
+    stroke-dashoffset: 187;
+    transform: rotate(450deg); } }
