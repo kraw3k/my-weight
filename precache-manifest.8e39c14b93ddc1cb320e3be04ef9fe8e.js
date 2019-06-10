@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/kraw3k/my-weight/static/css/main.dc470f25.chunk.css"
   },
   {
-    "revision": "14a71ab24154e876206003e18bff0afa",
+    "revision": "3829b261dfa04f9cccd88caa60f340c5",
     "url": "/kraw3k/my-weight/index.html"
   }
 ];
