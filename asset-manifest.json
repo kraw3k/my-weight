@@ -1,13 +1,13 @@
 {
-  "main.css": "/kraw3k/my-weight/static/css/main.dc470f25.chunk.css",
-  "main.js": "/kraw3k/my-weight/static/js/main.ac6386f8.chunk.js",
-  "main.js.map": "/kraw3k/my-weight/static/js/main.ac6386f8.chunk.js.map",
-  "static/js/1.340137a9.chunk.js": "/kraw3k/my-weight/static/js/1.340137a9.chunk.js",
-  "static/js/1.340137a9.chunk.js.map": "/kraw3k/my-weight/static/js/1.340137a9.chunk.js.map",
-  "runtime~main.js": "/kraw3k/my-weight/static/js/runtime~main.2cc9be84.js",
-  "runtime~main.js.map": "/kraw3k/my-weight/static/js/runtime~main.2cc9be84.js.map",
-  "static/css/main.dc470f25.chunk.css.map": "/kraw3k/my-weight/static/css/main.dc470f25.chunk.css.map",
-  "index.html": "/kraw3k/my-weight/index.html",
-  "precache-manifest.84575b1df893dbe3a6a0fc23f5897fc5.js": "/kraw3k/my-weight/precache-manifest.84575b1df893dbe3a6a0fc23f5897fc5.js",
-  "service-worker.js": "/kraw3k/my-weight/service-worker.js"
+  "main.css": "/my-weight/static/css/main.dc470f25.chunk.css",
+  "main.js": "/my-weight/static/js/main.1841d56a.chunk.js",
+  "main.js.map": "/my-weight/static/js/main.1841d56a.chunk.js.map",
+  "static/js/1.3d7717e8.chunk.js": "/my-weight/static/js/1.3d7717e8.chunk.js",
+  "static/js/1.3d7717e8.chunk.js.map": "/my-weight/static/js/1.3d7717e8.chunk.js.map",
+  "runtime~main.js": "/my-weight/static/js/runtime~main.1bf9b144.js",
+  "runtime~main.js.map": "/my-weight/static/js/runtime~main.1bf9b144.js.map",
+  "static/css/main.dc470f25.chunk.css.map": "/my-weight/static/css/main.dc470f25.chunk.css.map",
+  "index.html": "/my-weight/index.html",
+  "precache-manifest.5fd2bfab1a6902ef9fcf89ee7017388f.js": "/my-weight/precache-manifest.5fd2bfab1a6902ef9fcf89ee7017388f.js",
+  "service-worker.js": "/my-weight/service-worker.js"
 }
