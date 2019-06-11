@@ -11,6 +11,10 @@ App includes Firebase Auth and works as PWA.
 ## Live
 https://kraw3k.github.io/my-weight
 
+You can use test account (sign in with email):
+email: test@test.test
+password: 123456
+
 ## Firebase config
 
 All You need to do is create Firebase project and connect it with this app.
