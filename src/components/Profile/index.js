@@ -31,10 +31,7 @@ export default class Profile extends Component {
         <h3>
           author:
           <p>
-            <a href="http://kacperkrawczyk.pl">kacperkrawczyk.pl</a>
-          </p>
-          <p>
-            <a href="http://fb.com/krawczyk99">fb.com/krawczyk99</a>
+            <a href="http://kraw3k.github.io">kraw3k.github.io</a>
           </p>
         </h3>
       </section>

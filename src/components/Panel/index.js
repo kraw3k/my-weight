@@ -94,19 +94,28 @@ class Panel extends Component {
       <Router>
         <div className="app">
           <div className="menu">
-            <NavLink to="/list" activeClassName="selected">
+            <NavLink
+              to={process.env.PUBLIC_URL + "/list"}
+              activeClassName="selected"
+            >
               <div>
                 <i className="material-icons">format_list_bulleted</i>
                 <p>List</p>
               </div>
             </NavLink>
-            <NavLink to="/graphs" activeClassName="selected">
+            <NavLink
+              to={process.env.PUBLIC_URL + "/graphs"}
+              activeClassName="selected"
+            >
               <div>
                 <i className="material-icons">timeline</i>
                 <p>Graphs</p>
               </div>
             </NavLink>
-            <NavLink to="/profile" activeClassName="selected">
+            <NavLink
+              to={process.env.PUBLIC_URL + "/profile"}
+              activeClassName="selected"
+            >
               <div>
                 <i className="material-icons">account_circle</i>
                 <p>Profile</p>
@@ -116,7 +125,7 @@ class Panel extends Component {
 
           <div className="routerContent">
             <Route
-              path="/list"
+              path={process.env.PUBLIC_URL + "/list"}
               render={props =>
                 this.state.isLoadedUserWeight ? (
                   <WeightList
@@ -132,7 +141,7 @@ class Panel extends Component {
               }
             />
             <Route
-              path="/graphs"
+              path={process.env.PUBLIC_URL + "/graphs"}
               render={props =>
                 this.state.isLoadedUserWeight ? (
                   <WeightGraphs {...props} data={this.state.userWeight} />
@@ -142,7 +151,7 @@ class Panel extends Component {
               }
             />
             <Route
-              path="/profile"
+              path={process.env.PUBLIC_URL + "/profile"}
               render={() => <Profile logout={this.props.logout} />}
             />
           </div>

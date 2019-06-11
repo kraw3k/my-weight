@@ -27,7 +27,7 @@ export default class Auth extends Component {
       },
       // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
       signInFlow: "popup",
-      signInSuccessUrl: "/list",
+      signInSuccessUrl: `${process.env.PUBLIC_URL}/list`,
       signInOptions: [
         firebase.auth.GoogleAuthProvider.PROVIDER_ID,
         firebase.auth.EmailAuthProvider.PROVIDER_ID
