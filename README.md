@@ -8,7 +8,7 @@ You can also see a simple chart representing Your weight.
 
 App includes Firebase Auth and works as PWA.
 
-###### Live
+## Live
 https://kraw3k.github.io/my-weight
 
 ## Firebase config
