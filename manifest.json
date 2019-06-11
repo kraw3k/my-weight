@@ -5,8 +5,8 @@
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "https://kraw3k.github.io/my-weight/*",
-  "start_url": "/list",
+  "Scope": "%PUBLIC_URL%/*",
+  "start_url": "%PUBLIC_URL%/list",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
